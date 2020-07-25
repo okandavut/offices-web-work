@@ -1,58 +1,76 @@
-main {
-  border: 1px solid black;
-  width: 1200px;
-  min-height: 1000px;
-  margin: 0 auto;
-}
-.profile {
-  display: grid;
-  grid-template-columns: 120px 150px;
-  padding: 100px;
-  padding-left: 150px;
-}
-
-.profile img {
-  width: 100px;
-  height: 100px;
-  border-radius: 25px;
-}
-.profile-name {
-  font-size: 30px;
-  padding-top: 15px;
-}
-.profile-title {
-  font-size: 20px;
-  opacity: 0.6;
-  padding-top: 10px;
-}
-
-.main-wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 50px;
-}
-
-.left-column {
-  border: 1px solid red;
-  margin: 0 auto;
-  height: 650px;
-  width: 500px;
+.navbar {
   display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.logo {
+  padding: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+  margin: 20px;
+}
+
+.main-section {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  min-height: 10em;
+}
+.head-title{
+  margin-bottom:20px;
+}
+.office-photo {
+  display: grid;
+  text-align: center;
+  align-content: center;
+  min-height: 10em;
+}
+
+.founders {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  min-height: 10em;
+}
+.founder{
+  margin: 100px;
 }
 
-.left-dashboard {
-    background-color: pink;
-    border-radius: 15px;
-    width: 80%;
-    height: 600px;
-    margin: 0 auto;
-
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10em;
 }
 
-.right-column {
-  border: 1px solid red;
-  margin: 0 auto;
-  height: 650px;
-  width: 500px;
+
+@media screen and (max-width: 1200px) {
+  .founders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 10em;
+  }
+  ul {
+    display: none;
+  }
+  .footer{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    min-height: 10em;
+  }
+  
 }
