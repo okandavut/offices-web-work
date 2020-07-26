@@ -11,6 +11,6 @@ I published website on **Netlify** . You can check : [Offices Website](https://j
 
 <br>
 
-####Screenshoot : 
+#### Screenshoot : 
 
- ![WebSiteScreenshoot](https://raw.githubusercontent.com/okandavut/okandavut.github.io/master/_posts/images/vue-js-post/vue-js-1.png)
+ ![WebSiteScreenshoot](https://raw.githubusercontent.com/okandavut/offices-web-work/master/images/screenshoot.PNG?token=ACQ35XJJ44GMLYJ2ROLQYPK7E2WCY)
