@@ -3,8 +3,10 @@
   flex-direction: row;
   justify-content: space-between;
   background-color: #f9f9f9;
-  height: 100px;
+  height: 120px;
   margin-top: -10px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .logo {
@@ -14,6 +16,7 @@
 .logo-image {
   width: 100px;
   height: 100px;
+  margin-top: 12px;
 }
 
 ul {
@@ -21,7 +24,7 @@ ul {
   margin: 0;
   padding: 0;
   overflow: hidden;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
 li {
@@ -29,6 +32,18 @@ li {
   margin: 30px;
   margin-left: 80px;
   font-weight: bold;
+}
+
+.signup-button{
+  border-radius: 100px;
+  border: 0px;
+  background-color: black;
+  color:white;
+  width: 100px;
+  height: 50px;
+  margin-top: -130px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 .main-section {
@@ -43,8 +58,10 @@ li {
   text-align: left;
   margin-bottom: 20px;
   margin-top: 180px;
-  font-size: 75px;
+  font-size: 55px;
   font-weight: bold;
+  font-family: 'Krona One', sans-serif;
+
 }
 
 .about-us-text {
@@ -53,6 +70,8 @@ li {
   text-align: left;
   gap: 100px;
   margin-top: 50px;
+  font-family: 'Open Sans', sans-serif;
+
 }
 .about-us-text div {
   width: 400px;
@@ -80,8 +99,9 @@ li {
 
 .founders-title {
   margin-top: 50px;
+  font-family: 'Hind Madurai', sans-serif;
   margin-bottom: -10px;
-  font-size: 35px;
+  font-size: 55px;
   font-weight: bold;
 }
 
@@ -97,6 +117,8 @@ li {
   display: grid;
   justify-content: center;
   align-items: center;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .founders-name {
@@ -143,7 +165,16 @@ li {
 }
 
 .footer h1 {
+  font-family: 'Hind Madurai', sans-serif;
+  font-size: 35px;
   text-align: center;
+  margin-top: -20px;
+  margin-bottom: -10px;
+}
+
+.footer p {
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 @media screen and (max-width: 1200px) {
@@ -196,6 +227,7 @@ li {
   .footer h1 {
     text-align: center;
     margin-bottom: -10px;
+    font-size: 25px;
   }
 
   .head-title {
